@@ -1,0 +1,107 @@
+<!doctype html>
+<html lang="fr">
+  <head>
+    <link rel="stylesheet" href="style.css" />
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>MasterMind</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
+      crossorigin="anonymous"
+    />
+    <link href="https://kit.fontawesome.com/0da3f5fcb9.js" rel="stylesheet" />
+  </head>
+  <body class="bg-dark">
+    <h3 class="text-warning text-center my-5">
+      MasterMind <i class="fa-solid fa-gamepad"></i>
+    </h3>
+    <div class="container text-white">
+      <div
+        id="container"
+        class="rounded-pill col-md-10 offset-md-1 text-center fs-5"
+      >
+        <div class="round" id="round1">⚫⚫⚫⚫</div>
+        <div class="round" id="round2">⚫⚫⚫⚫</div>
+        <div class="round" id="round3">⚫⚫⚫⚫</div>
+        <div class="round" id="round4">⚫⚫⚫⚫</div>
+        <div class="round" id="round5">⚫⚫⚫⚫</div>
+        <div class="round" id="round6">⚫⚫⚫⚫</div>
+        <div class="round" id="round7">⚫⚫⚫⚫</div>
+        <div class="round" id="round8">⚫⚫⚫⚫</div>
+        <div class="round" id="round9">⚫⚫⚫⚫</div>
+        <div class="round" id="round10">⚫⚫⚫⚫</div>
+
+        <div class="fw-lighter fs-5">
+          <i class="fa-solid fa-circle-check"></i> Bien placé |
+          <i class="fa-regular fa-circle-xmark"></i> Bonne couleur, mal placé
+        </div>
+      </div>
+    </div>
+    <div id="manche" class="text-white m-3 text-center fw-bold fs-5"></div>
+
+    <div class="container">
+      <div id="bouton-joueur" class="row justify-content-center my-3">
+        <button
+          type="button"
+          class="couleur btn rounded-circle mx-1"
+          data-couleur="🔴"
+          id="rouge"
+        >
+          R
+        </button>
+        <button
+          type="button"
+          class="couleur btn rounded-circle mx-1"
+          data-couleur="🟢"
+          id="vert"
+        >
+          V
+        </button>
+        <button
+          type="button"
+          class="couleur btn rounded-circle mx-1"
+          data-couleur="🔵"
+          id="bleu"
+        >
+          B
+        </button>
+        <button
+          type="button"
+          class="couleur btn rounded-circle mx-1"
+          data-couleur="🟡"
+          id="jaune"
+        >
+          J
+        </button>
+      </div>
+      <div class="text-center">
+        <button
+          type="button"
+          class="btn btn-dark mt-3 border border-white"
+          id="jouer"
+        >
+          Jouer
+        </button>
+      </div>
+      <div id="message" class="m-3 text-secondary fs-5 text-center"></div>
+      <div id="messageJ1" class="m-5 text-white fs-1 text-center"></div>
+    </div>
+    <script
+      src="https://kit.fontawesome.com/0da3f5fcb9.js"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
+      integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.min.js"
+      integrity="sha384-0pUGZvbkm6XF6gxjEnlmuGrJXVbNuzT9qBBavbLwCsOGabYfZo0T0to5eqruptLy"
+      crossorigin="anonymous"
+    ></script>
+    <script src="script.js"></script>
+  </body>
+</html>

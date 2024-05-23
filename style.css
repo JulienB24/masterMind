@@ -1,0 +1,55 @@
+#bouton-joueur button {
+  width: 60px;
+  height: 60px;
+  font-size: 15px;
+}
+
+#bouton-joueur button:active {
+  border: black solid 5px;
+  opacity: 0.3;
+}
+
+.forme-couleur {
+  width: 30px; /* Largeur de la forme de couleur */
+  height: 30px; /* Hauteur de la forme de couleur */
+  border-radius: 50%; /* Pour obtenir une forme de cercle */
+  display: inline-block; /* Afficher les formes en ligne */
+  margin-right: 5px; /* Marge à droite pour l'espacement */
+}
+#jouer {
+  margin: auto;
+}
+
+#bouton-joueur {
+  margin: auto;
+  text-align: center;
+}
+#rouge {
+  background-color: rgb(187, 12, 12);
+  color: white;
+  font-weight: bolder;
+}
+#vert {
+  background-color: green;
+  color: white;
+  font-weight: bolder;
+}
+#bleu {
+  background-color: blue;
+  color: white;
+  font-weight: bolder;
+}
+#jaune {
+  background-color: rgb(207, 207, 15);
+  font-weight: bolder;
+}
+
+#container {
+  box-shadow: 0px 0px 50px 50px blueviolet;
+  padding: 50px;
+  border: bl;
+}
+#secret {
+  margin: auto;
+  text-align: center;
+}
